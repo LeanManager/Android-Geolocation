@@ -1,0 +1,33 @@
+﻿//map = googleMap;
+
+            //map.MapType = GoogleMap.MapTypeHybrid;
+            //map.UiSettings.ZoomControlsEnabled = true;
+
+			/* Add an event handler for the GoogleMap.MapClick event at the end of the method. 
+			   Since we have some non-trivial work to do, it's recommended that you use a regular 
+			   method as the event handler (not a lambda). */
+			//map.MapClick += OnGetDetails;	
+
+			//Criteria criteria = new Criteria
+			//{
+			//	Accuracy = Accuracy.Fine,
+			//	PowerRequirement = Power.NoRequirement
+			//};
+
+			//string providerName = locManager.GetBestProvider(criteria, true);
+			//locManager.RequestLocationUpdates(5000, 100f, criteria, this, null);
+
+			/* Check the apiClient and if it's not null, then check the IsConnected property and call Connect if necessary.
+			   Otherwise, if apiClient is null, then register with the LocationManager for updates. */
+			//if (apiClient != null)
+			//{
+			//	if (!apiClient.IsConnected)
+			//		apiClient.Connect();
+			//}
+			//else
+			//{
+			//	LocationManager locManager = LocationManager.FromContext(this);
+
+			//	// Call the RequestLocationUpdates method to register for location change updates.
+			//	locManager.RequestLocationUpdates(LocationManager.GpsProvider, 3000, 100f, this);
+			//}
